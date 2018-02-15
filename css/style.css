@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #355C7D;
+    overflow: hidden;
+}
+
+header {
+    background: #C06C84;
+    color: #355C7D;
+    text-align: center;
+}
+
+/* List */
+
+.dinner-wrapper {
+    display: block;
+    margin: 5% 40%; 
+    background: #6C5B7B;
+}
+
+.dinner-item:nth-child(2n) {
+    background: #C06C84;
+}
+
+.dinner-item:hover {
+    background: #F67280;
+    color: #FFC7C7;
+    border-top: 2px solid snow;
+    border-bottom: 2px solid snow;
+    transition: .5s ease-in;
+    width: 100%;
+}
+
+.dinner-item {
+    padding: 4% 0 4% 0;
+    font-size: 1.2em;
+    font-weight: 400;
+    transition: .5s ease-out;
+    width: 100%;
+}
+
+input[type="checkbox"]:checked + span {
+    text-decoration: line-through;
+    color: #F3ECC8;
+    transition: .4s;
+}
+
+/* BTN */
+
+.dinner-btn {
+    background: #34374C;
+    color: #355C7D;
+    margin: 0 46.4%;
+    user-select: none;
+    text-decoration: none;
+    padding: .7em 1.5em;
+    outline: none; 
+    border: none;
+}
+
+.dinner-btn:active {
+    background: #2C2E3E;
+    color: #355C7D;
+}
